@@ -1,0 +1,25 @@
+{
+  "name": "legendary-fiesta",
+  "version": "0.1.0",
+  "private": true,
+  "description": "React application with cancellable API utilities and auth route guards",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest --testEnvironment jsdom"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
